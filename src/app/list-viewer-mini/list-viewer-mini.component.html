@@ -1,0 +1,5 @@
+<div>
+  <img *ngIf="srcLeft" [src]="srcLeft" alt="selected image" (click)="onImageClicked(srcLeft)" />
+  <img *ngIf="srcMiddle" [src]="srcMiddle" alt="selected image" (click)="onImageClicked(srcMiddle)" />
+  <img *ngIf="srcRight" [src]="srcRight" alt="selected image" (click)="onImageClicked(srcRight)" />
+</div>
